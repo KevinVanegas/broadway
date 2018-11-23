@@ -1,28 +1,54 @@
+
 body {
 	text-align: center;
+	font-family: arial; /* Not allowing me to use Helvetica*/
 }
-ul {
+ul.list {
 	list-style-type: none;
 	padding-left: 0px;
 	padding-bottom: 20px;
 	margin-bottom: 10px;
-}
-.nav {
-	background-image: url("../images/the-flatiron-building.png");
-	
-}
-img {
-	
-}
-h1 {
-	padding-top: 20px;
 }
 li a {
 	color: white;
 	font-weight: bold;
 	text-decoration: none;
 }
-
-ul li {
-	padding-bottom: 5px;
+.nav {
+	background-image: url("../images/the-flatiron-building.png");
+	}
+h1 {
+	padding-top: 20px;
+	color: white;
+}
+h3#location {
+	background-image: url("../images/the-flatiron-building.png");
+	padding: 5px;
+	color: white;
+}
+footer {
+	background-image: url("../images/the-flatiron-building.png");
+	margin: 0px;
+	padding: 0px;
+}
+footer p {
+	text-align: left;
+	margin: 0px;
+	padding-left: 5px;
+	color: white;
+}
+ul.footer-nav li{
+	display: inline;
+}	
+ul.footer-nav {
+	width: 405px;
+	margin: 0;
+	padding: 0;
+}
+div.container-1 {
+	display: inline;
+	float: left;
+}
+div.container-2 {
+	display: inline;
 }
